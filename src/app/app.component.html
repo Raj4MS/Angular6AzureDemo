@@ -1,7 +1,2 @@
-<a [routerLink]="['/login']">Login</a>
-<br>
-<br>
-<a [routerLink]="['/dashboard']">Dashboard</a>
-<br>
-<br>
+<div id="loading-img" *ngIf="loader" [ngClass]="{overlay: loader}">Loading..please wait...</div>
 <router-outlet></router-outlet>
