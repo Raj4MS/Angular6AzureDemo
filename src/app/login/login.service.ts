@@ -10,6 +10,7 @@ import { LoginModel } from './login.model';
 export class LoginService {
 
     // baseUrl = 'http://localhost:49675';
+    
     baseUrl = 'http://webapi2azuredemo.azurewebsites.net';
     isAuthenticated = false;
 
